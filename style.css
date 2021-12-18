@@ -1,0 +1,178 @@
+/*common css start*/
+body{
+    background-color: #070045;
+}
+/*common css end*/
+
+/*header css start*/
+header{
+    margin: 0 auto;
+}
+.wrapper{
+    overflow: hidden;
+    width: 90%;
+    margin:0 auto;
+}
+.s_content{
+    width: 10%;
+    float: left;
+}
+.logo{
+    width: 100%;
+}
+.logo h2{
+    color:white;
+}
+.logo h2:hover{
+    color: #ff1493;
+}
+.s_span{
+    font-size: 30px;
+    color: deeppink;
+}
+.logo .s_span:hover{
+    color: white;
+}
+.menu{
+    width: 55%;
+    float: right;
+}
+.menu ul{
+    list-style: none;
+    float: right;
+}
+.menu ul li{
+    float: left;
+    padding: 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menu ul li a:hover{
+    color: deeppink;
+}
+/*header css end*/
+
+/*common css start*/
+.banner{
+    margin: 60px;
+}
+.wrapper2{
+    width: 75%;
+    margin: 0 auto;
+}
+.b_content{
+    margin: 20px;
+}
+.b_content h2{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 50px;
+    color: #008aff;
+}
+.b_content p{
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+}
+.b_span{
+    color:#ffffff ;
+}
+.b_span:hover{
+    color:#ff1493 ;
+}
+.b_img{
+    text-align: center;
+}
+.b_img img{
+    margin: 10px 10px;
+    transition: .3s;
+}
+.b_img img:hover{
+    transform: scale(.8);
+}
+/*common css end*/
+
+/*banner css start*/
+.success{
+    padding: 10px 0 10px 0;
+}
+.b_content{
+    overflow: hidden;
+}
+.s_left{
+    width: 49%;
+    float: left;
+}
+.s_left h2{
+    text-align: right;
+    color: #f15767;
+}
+.s_left p{
+    text-align: right;
+    color: #ffffff;
+}
+.s_right{
+    width: 46%;
+    float: right;
+}
+.s_right h1{
+    margin: 0;
+    font-size: 50px;
+    color: #008aff;
+}
+/*banner css end*/
+
+/*service css start*/
+.service{
+    margin: 40px;
+}
+.wrapper{}
+.s_wrapper{}
+.s_single{
+    width: 30%;
+    margin: 0 10px;
+    float: left;
+}
+.s_single h2{
+    text-align: center;
+    color: #0e83e9;
+}
+.s_single p{
+    text-align: center;
+    color: white;
+}
+.s_single img{
+    width: 100%;
+}
+.pink{
+    background-color: #fdebed;
+}
+.s_single p{
+    color:black ;
+}
+.green{
+    background-color: #ebf9f4;
+}
+.red{
+    background-color: #fff2d6;
+}
+/*service css end*/
+
+/*footer css start*/
+footer{
+    margin: 60px 0;
+    background-color: #008aff;
+}
+.f_text{
+    text-align: center;
+    padding: 20px;
+}
+.f_text h1{
+    color: #91d3ff;
+}
+.f_span{
+    color: #feffff;
+}
+/*footer css end*/
